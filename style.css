@@ -18,4 +18,21 @@ ul {
   margin: 0;
 }
 
+nav > ul > li {
+  list-style: none;
+}
 
+a {
+  color: #3cf;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+p {
+  line-height: 1.8;
+  margin-top: 0;
+}
+
+h2 {
+  margin-top: 0;
+}
