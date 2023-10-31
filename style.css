@@ -58,3 +58,24 @@ h2 {
   color: white;
   padding: 10px;
 }
+
+.tm-container {
+  padding: 30px;
+}
+
+.tm-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tm-left {
+  width: 50%;
+}
+
+.tm-right {
+  width: 50%;
+}
+
+.tm-left-inner {
+  position: fixed;
+}
