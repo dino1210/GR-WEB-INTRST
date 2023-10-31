@@ -127,3 +127,23 @@ h2 {
   align-items: center;
   font-size: 1.2rem;
 }
+
+.tm-page-link:hover {
+  background-color: #fe7ba3;
+  color: white;
+}
+.tm-page-link.active {
+  background-color: #fe7ba3;
+  color: white;
+}
+
+.tm-page-link-icon {
+  margin-right: 25px;
+  margin-left: 25px;
+  font-size: 1.5rem;
+}
+
+.tm-black-bg {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
