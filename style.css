@@ -147,3 +147,36 @@ h2 {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
 }
+
+.tm-aatwices-nav > ul > li {
+  display: inline-block;
+}
+
+.tm-aatwices-nav > ul > li {
+  color: white;
+  font-size: 1.2rem;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid transparent;
+}
+
+.tm-aatwices-nav {
+  height: 80px;
+}
+
+.tm-main {
+  max-width: 660px;
+}
+
+.tm-aatwices-nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.tm-aatwices-nav > ul > li a.active,
+.tm-aatwices-nav > ul > li a.hover {
+  color: white;
+  border-bottom: 4px solid #fe7ba3;
+}
