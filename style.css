@@ -292,3 +292,7 @@ h2 {
   font-size: 1.4rem;
   color: palevioletred;
 }
+
+.tm-funfacts-description {
+  padding: 25px 30px;
+}
