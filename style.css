@@ -271,4 +271,24 @@ h2 {
   }
 }
 
+/* EVENTS */
 
+/* EVENTS */
+
+/*FUNFACTS*/
+
+.twice-funfacts {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -30px -10px 0;
+}
+
+.tm-funfacts-title {
+  font-size: 1rem;
+  color: pink;
+}
+
+.tm-funfacts-title2 {
+  font-size: 1.4rem;
+  color: palevioletred;
+}
