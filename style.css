@@ -180,3 +180,95 @@ h2 {
   color: white;
   border-bottom: 4px solid #fe7ba3;
 }
+
+.tm-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.tm-list-item-2 {
+  align-items: flex-start;
+}
+
+.tm-list-item-img {
+  margin-right: 20px;
+  width: 160px;
+  height: 160px;
+  background-color: #099;
+}
+
+.tm-list-item-img-big {
+  margin-right: 25px;
+  width: 200px;
+  height: 200px;
+}
+
+.tm-list-item-text {
+  padding: 20px 25px;
+  flex: 1;
+}
+
+.tm-list-item-text-2 {
+  flex: 1;
+}
+
+.tm-list-item-name {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+}
+
+.tm-list-item-pr {
+  color: #96feff;
+}
+
+.tm-site-footer {
+  margin-top: 15px;
+}
+
+.tm-footer-text {
+  padding: 10px 20px 10px 20px;
+  display: inline-block;
+}
+
+.tm-footer-link {
+  color: white;
+}
+
+.tm-tab-content {
+  animation: fadeEffect 1s;
+}
+
+.tm-page-content {
+  animation: fadeEffect 1s;
+}
+
+.tm-text-primary {
+  color: #fe7ba3;
+}
+
+.tm-mb-20 {
+  margin-bottom: 20px;
+}
+
+.tm-mb-30 {
+  margin-bottom: 30px;
+}
+
+.tm-img-right {
+  margin-left: 30px;
+  margin-right: 0;
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 0.1;
+  }
+}
+
+
