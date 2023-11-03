@@ -814,7 +814,30 @@
         $(".tm-tab-link").removeClass("active");
         $(evt.currentTarget).addClass("active");
       }
+      
+      function initPage() {
+        let pageId = location.hash;
 
+        if (pageId) {
+          highlightMenu($(`.tm-page-link[href^="${pageId}"]`));
+          showPage($(pageId));
+        } else {
+          pageId = $(".tm-page-link.active").attr("href");
+          showPage($(pageId));
+        }
+      }
+
+      function highlightMenu(menuItem) {
+        $(".tm-page-link").removeClass("active");
+        menuItem.addClass("active");
+      }
+
+      function showPage(page) {
+        $(".tm-page-content").hide();
+        page.show();
+      }
+
+      
      
     </script>
     </body>
