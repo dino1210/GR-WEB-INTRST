@@ -478,3 +478,40 @@ h2 {
     margin-left: 0;
   }
 }
+
+@media (max-width: 479px) {
+  .tm-site-name {
+    font-size: 2.6rem;
+  }
+
+  .tm-site-logo {
+    margin-right: 20px;
+  }
+
+  .tm-list-item {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  .tm-list-item-img {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .tm-aatwices-nav {
+    height: auto;
+  }
+
+  .tm-aatwices-nav>ul {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .tm-aatwices-nav>ul>li {
+    margin-bottom: 10px;
+  }
+
+  .tm-aatwices-nav>ul>li>a {
+    display: block;
+  }
+}
