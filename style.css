@@ -360,3 +360,7 @@ h2 {
 }
 
 /* Internet Explorer 10-11 */
+
+.tm-form-control::placeholder {
+  color: white;
+}
