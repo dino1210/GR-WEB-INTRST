@@ -79,7 +79,12 @@ h2 {
 .tm-site-logo {
   margin-right: 30px;
 }
-
+.tm-site-name {
+  font-size: 2.2rem;
+  font-style: italic;
+  max-width: 200px;
+  max-height: 200px;
+}
 .time-site-name {
   font-size: 2.2rem;
   font-size: italic;
@@ -270,6 +275,11 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   margin: -30px -10px 0;
+}
+
+.tm-funfact {
+  max-width: 320px;
+  margin: 30px 10px;
 }
 
 .tm-funfacts-title {
