@@ -438,3 +438,9 @@ h2 {
     display: block;
   }
 }
+
+@media (max-width: 574px) {
+  .tm-site-nav-ul {
+    display: block;
+  }
+}
