@@ -318,3 +318,22 @@ h2 {
   max-width: 70%;
   height: 70%;
 }
+
+.tm-form-group {
+  margin-bottom: 25px;
+}
+
+.tm-form-control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+  background-color: transparent;
+  background-clip: padding-box;
+  border: 0;
+  border-bottom: 1px solid white;
+}
