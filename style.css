@@ -455,3 +455,26 @@ h2 {
     margin-left: 180px;
   }
 }
+
+@media (max-width: 500px) {
+  .tm-about-header {
+    margin-left: 0;
+  }
+
+  .tm-list-item-2 {
+    flex-direction: column;
+  }
+
+  .tm-about-box-1 {
+    padding-left: 30px;
+  }
+
+  .tm-list-item-img-big {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  .tm-img-right {
+    margin-left: 0;
+  }
+}
